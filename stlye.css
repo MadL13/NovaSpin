@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #7fd3ff, #ff9ce6);
+  min-height: 100vh;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+}
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #1f2bff;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 80px 40px;
+  flex-wrap: wrap;
+}
+
+.hero img {
+  width: 320px;
+  filter: drop-shadow(0 0 20px rgba(255,255,255,0.5));
+}
+
+.hero-text h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  background: white;
+  color: #ff4fc3;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: #1f2bff;
+  color: white;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.feature-card {
+  background: rgba(255,255,255,0.15);
+  padding: 30px;
+  border-radius: 20px;
+  width: 280px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.product-page,
+.cart-page,
+.about-page {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.product-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.product-page img {
+  width: 350px;
+}
+
+.product-info {
+  max-width: 400px;
+}
+
+.price {
+  font-size: 32px;
+  margin: 20px 0;
+  color: yellow;
+}
+
+#cart-items {
+  margin: 30px auto;
+  max-width: 500px;
+  background: rgba(255,255,255,0.15);
+  padding: 30px;
+  border-radius: 20px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
