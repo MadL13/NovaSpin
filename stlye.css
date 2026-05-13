@@ -19,9 +19,8 @@ header {
   background: rgba(255,255,255,0.15);
   backdrop-filter: blur(10px);
 }
-.logo {
-  font-size: 28px;
-  font-weight: bold;
+.logo img {
+  width: 180px;
 }
 
 nav a {
