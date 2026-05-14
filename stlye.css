@@ -20,7 +20,8 @@ header {
   backdrop-filter: blur(10px);
 }
 .logo img {
-  width: 50px;
+  width: 70px;
+  height: auto
 }
 
 nav a {
