@@ -22,7 +22,6 @@ header {
 .logo img {
   width: 70px !important;
   height: auto;
-  display: block;
 }
 
 nav a {
